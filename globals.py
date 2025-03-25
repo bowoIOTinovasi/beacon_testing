@@ -5,13 +5,16 @@
 # mac_address = "02:81:29:61:76:f8" # beacon new final 1
 # mac_address = "b8:27:eb:51:7e:24" # beacon raspberry pi + gsm
 # mac_address = "02:81:a8:eb:23:cb" # opi indoor tracking
-mac_address = "02:81:29:61:76:f8"
+# mac_address = "02:81:29:61:76:f8"
+mac_address = " b8:27:eb:51:7e:24"  # beacon raspberry pi testing
+
+
 
 # main.py
 hardware = True
 sender_active = True
 
-opi_device = True # True = orange pi | False = raspberry pi
+opi_device = False # True = orange pi | False = raspberry pi
 indoortracking_mode = False
 
 
@@ -79,7 +82,8 @@ trigger_count = 60
 # mqtt config default
 # mqtt_server = "go.interads.co.id"
 # mqtt_server = "mqtt.staging.inovasi.top"
-mqtt_server = "mqtt.inovasiadiwarna.com"
+# mqtt_server = "mqtt.inovasiadiwarna.com"
+mqtt_server = "mqtt.inovasi.top"
 port = 1883
 
 
