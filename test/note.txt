@@ -1,0 +1,104 @@
+ssid = AHASS 13995 - Angwin Motor
+pass = hondaoneheart
+
+
+ssid = TABLETOAST
+pass = fantoastic
+
+
+lt3 - 192.168.46.81
+
+
+List Mac
+HP - Hana = e0:1f:88:5b:c8:f2
+HP - Yasmin = 46:18:eb:c3:0b:29
+HP - Yuke = 8a:23:4a:81:e9:b1
+HP - Yuko = 8A:43:BB:70:15:F7
+HP - Ronny = 20:34:fb:f4:02:00
+HP - Mehisa = da:48:b9:9f:58:4f
+HP - Udin = 7E:2A:6F:2F:B7:07
+HP - Alwan = 00:c3:0a:1f:6f:43
+HP - Lutfi = 6a:3f:eb:c1:40:e7
+HP - Chris = 22:6f:51:77:7e:00
+HP - Nanda = 58:85:a2:61:61:91
+
+Laptop - Izzat = a4:cf:99:76:6b:1e
+Laptop - Rahmat = 44:03:2C:44:7D:39
+Laptop - Maria = A8:64:F1:63:AA:97
+Laptop - Yuko = 38:D5:7A:44:34:ED
+Laptop - Hana = 80:C5:F2:A7:F3:71
+Laptop - Yuke = 38:D5:7A:17:ED:43
+Laptop - Ronny = 00:0C:09:70:12:73
+Laptop - Alwan = 4C:44:5B:34:59:E5
+PC - Alwan = 64:66:b3:1d:65:29
+TV 43 (1) - 74:81:9a:e3:0d:5d
+TV 43 (2) - 74:81:9a:e3:bc:0f
+TV 32 (1) - 10:d0:7a:f6:90:a0 ampak 
+TV 32 (2) - 10:d0:7a:f7:45:ec
+
+
+
+- run GSM sim800 -
+sudo pon rnet
+tail -f /var/log/syslog | grep pppd
+tail -f /var/log/syslog
+
+ip route
+ip route del default via 10.42.0.1
+ip route add default via 192.168.254.254
+--
+
+
+set config 
+VPN
+#1
+beacon/subscribe/02:81:82:c7:66:62
+#2
+beacon/subscribe/02:81:3f:50:3a:63
+#3
+beacon/subscribe/02:81:af:d0:fc:e9
+
+
+ON
+{
+    "action": "/config/vpn/on",
+    "data": {}
+}
+
+OFF
+{
+    "action": "/config/vpn/off",
+    "data": {}
+}
+
+
+topic : /response/publish/beacon/local
+
+{
+    "id":"02:81:af:d0:fc:e9",
+    "timestamp": "2023-08-02 10:38:49",
+    "ip":"127.0.0.1"
+    "data": {
+        "dt":"2023-08-02 10:00:00",
+        "total_wifi":50,
+        "total_ble": 100,
+        "dwelling_wifi": 20,
+        "dwelling_ble": 30,
+    }
+}
+
+
+(Beacon Senayan City)
+02:81:82:c7:66:62
+signal A = 99
+signal B = 89
+
+(Beacon GI)
+02:81:3f:50:3a:63	
+signal A = 76
+signal B = 67
+
+(Beacon PIK)
+02:81:af:d0:fc:e9	
+signal A = 73
+signal B = 63

@@ -1,0 +1,5 @@
+beacon1.ovpn - 02:81:3f:50:3a:63 -- 10.8.0.4
+beacon2.ovpn - 02:81:29:61:76:f8 -- 10.8.0.5
+beacon3.ovpn - 
+beacon4.ovpn - 
+beacon5.ovpn - 

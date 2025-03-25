@@ -1,0 +1,27 @@
+esp
+depan pintu lt 3 = 67
+lt 2  depan toilet = 83
+lt2 depan pintu ruangan = 85
+lt 1 pantry = -
+lt 1 deket pintu masuk =-
+pojok masu udin = 68
+pojok toilet = 70
+
+hp nan
+depan pintu lt 3 = 63
+lt 2  depan toilet = 75
+lt2 depan pintu ruangan = 75
+lt 1 pantry = -
+lt 1 deket pintu masuk = -
+pojok masu udin = 63
+pojok toilet = 65
+
+hp chr
+depan pintu lt 3 = 75
+lt 2  depan toilet = 85
+lt2 depan pintu ruangan = 71
+lt 1 pantry = -
+lt 1 deket pintu masuk = -
+pojok masu udin = 68
+pojok toilet =
+

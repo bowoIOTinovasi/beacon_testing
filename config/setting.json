@@ -1,0 +1,15 @@
+{
+    "action": "/config/beacon",
+    "data": {
+        "mqtt_server": "mqtt.inovasiadiwarna.com",
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 60,
+            "max_small_frame": 76
+        },
+        "ble": {
+            "min_small_frame": 60,
+            "max_small_frame": 76
+        }
+    }
+}

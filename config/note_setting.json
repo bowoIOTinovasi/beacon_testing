@@ -1,0 +1,150 @@
+// bengkel
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 90
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 85
+        }
+    }
+}
+
+
+// klampis
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 55,
+            "min_big_frame": 60,
+            "max_big_frame": 90
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 85
+        }
+    }
+}
+
+// klampis test 2 device | test 1
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 65,
+            "min_big_frame": 65,
+            "max_big_frame": 80
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 99
+        }
+    }
+}
+
+// klampis test 2 device | test 2 dengan gray 3
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 65,
+            "min_big_frame": 68,
+            "max_big_frame": 80
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 99
+        }
+    }
+}
+
+// klampis test 2 device | test 2 dengan gray 5
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 65,
+            "min_big_frame": 70,
+            "max_big_frame": 80
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 99
+        }
+    }
+}
+
+// cp
+{
+    "action": "/config/beacon",
+    "data": {
+        "send_complete_data": true,
+        "time_scan": [1,16,31,46],
+        "mqtt_server": "interadsdev.com",
+        "start_scan": 0,
+        "finish_scan": 0,
+        "interval": 60,
+        "wifi": {
+            "min_small_frame": 25,
+            "max_small_frame": 67,
+            "min_big_frame": 67,
+            "max_big_frame": 85
+        },
+        "ble": {
+            "min_small_frame": 25,
+            "max_small_frame": 70,
+            "min_big_frame": 75,
+            "max_big_frame": 99
+        }
+    }
+}
